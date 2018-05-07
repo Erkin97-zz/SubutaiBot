@@ -13,6 +13,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	bot.Handle("/answer", "42")
+	bot.Handle("/answer", "Hello, Master Erkin")
 	bot.ListenAndServe()
 }
