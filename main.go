@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	os.Setenv("TELEGRAM_TOKEN", "570124949:AAESKJOMl4Rm9UtmEhw6_lP6RErsHNzYvk0")
 	bot, err := tbot.NewServer(os.Getenv("TELEGRAM_TOKEN"))
 	if err != nil {
 		log.Fatal(err)
